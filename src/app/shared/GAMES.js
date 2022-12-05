@@ -17,16 +17,14 @@ export const GAMES = [
         image: atlasImg,
         featured: false,
         description: 'Testing...'
-    }
-    ,
+    },
     {
         id: 2,
         name: "Madden 2023",
         image: maddenImg,
         featured: true,
         description: 'Testing...'
-    }
-    ,
+    },
     {
         id: 3,
         name: "Conan Exiles: Age of Sorcery",

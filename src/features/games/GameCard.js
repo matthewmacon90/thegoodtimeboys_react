@@ -1,4 +1,4 @@
-import { Card, CardImg, CardImgOverlay, CardTitle, CardSubtitle } from "reactstrap";
+import { Card, CardImg, CardImgOverlay, CardTitle, Button } from "reactstrap";
 import GAMES from "../../app/shared/GAMES";
 
 const GameCard = (props) => {
@@ -10,9 +10,8 @@ const GameCard = (props) => {
                 alt={props.game.name}
             />
             <CardImgOverlay>
-                <CardTitle >{props.game.name}</CardTitle>
+                <CardTitle>{props.game.name}</CardTitle>
             </CardImgOverlay>
-            
         </Card>
     );
 };
