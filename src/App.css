@@ -10,16 +10,12 @@ h3,
 }
 
 .card-title {
-  font-weight: 500;
-  font-size: 1.25rem;
-}
-
-h2 {
-  color: #3046c5;
+  font-weight: 700;
+  font-size: 1.50rem;
+  color: white;
 }
 
 .card-img-overlay .card-title {
-  color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -27,18 +23,6 @@ h2 {
   padding: 50px 0;
   border-bottom: 1px ridge;
   min-height: 200px;
-}
-
-.site-footer {
-  background-image: linear-gradient(#000000, #242222,  #13289e);
-  padding: 20px 0;
-  margin-top: 2rem;
-}
-
-.navbar-dark {
-  background-image: linear-gradient(to right, #000000, #000, #13289e, #000, #000);
-  margin-bottom: 2rem;
-  min-height: 8rem;
 }
 
 .page-enter {
