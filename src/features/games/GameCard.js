@@ -1,16 +1,17 @@
 import { Card, CardImg, CardImgOverlay, CardTitle, Button } from "reactstrap";
-import GAMES from "../../app/shared/GAMES";
 
-const GameCard = (props) => {
+
+const GameCard = ({game}) => {
+    const { image, name} = game;
     return (
         <Card>
             <CardImg 
                 width='100%'
-                src={props.game.image}
-                alt={props.game.name}
+                src={image}
+                alt={name}
             />
             <CardImgOverlay>
-                <CardTitle>{props.game.name}</CardTitle>
+                <CardTitle>{name}</CardTitle>
             </CardImgOverlay>
         </Card>
     );
