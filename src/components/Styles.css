@@ -19,7 +19,15 @@
     min-height: 8rem;
   }
 
-.social-links a{
+.social-icons a{
   margin: 4px;
   font-size: 28px;
+}
+
+.footer-links a{
+  color: white;
+  text-decoration: none;
+}
+.links-hover a.hover{
+  text-decoration: underline;
 }
