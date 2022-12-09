@@ -1,10 +1,10 @@
 import { Container, Row } from "reactstrap";
 import '../Styles.css';
-import SocialIcon from "./socialsList";
-import LinksList from "./linksList";
-import ContactUs from "./contactUs";
-import Subscribe from "./subscribe";
-import Copyright from "./copyRight";
+import SocialIcon from "./SocialsList";
+import LinksList from "./LinksList";
+import ContactUs from "./ContactUs";
+import Subscribe from "./Subscribe";
+import Copyright from "./CopyRight";
 
 const Footer = () => {
     return (

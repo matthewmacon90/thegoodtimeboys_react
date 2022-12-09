@@ -1,5 +1,5 @@
 import './App.css';
-import GamesList from './features/games/GamesList';
+import GamesDirectoryPage from './pages/GamesDirectoryPage';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <GamesList />
+        <GamesDirectoryPage />
         <Footer />
     </div>
   );

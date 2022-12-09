@@ -9,7 +9,7 @@ const LinksList = () => {
                     <a target='_blank' href="https://www.google.com">Google</a> 
                 </NavItem>
                 <NavItem>
-                    <a target='_blank' href="https://www.google.com">Google</a> 
+                    <a target='_blank' href="https://www.google.com">Test1</a> 
                 </NavItem>
                 <NavItem>
                     <a target='_blank' href="https://www.google.com">Test2</a>
