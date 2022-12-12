@@ -6,6 +6,8 @@ import ContactUs from "./ContactUs";
 import Subscribe from "./Subscribe";
 import Copyright from "./CopyRight";
 
+//Footer is not sticking to the bottom of the page on certain screen sizes, check into this.
+
 const Footer = () => {
     return (
         <footer className="site-footer">

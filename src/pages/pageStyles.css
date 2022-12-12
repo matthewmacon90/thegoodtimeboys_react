@@ -1,0 +1,6 @@
+/* not sure why this class didn't work */
+.btn-border{
+    color: red;
+    border: none;
+    outline: none;
+}

@@ -1,23 +1,17 @@
-import {Container, Row, Col, Button} from 'reactstrap';
+import { useState } from 'react';
+import {Container, Row, Col} from 'reactstrap';
 import GameDetail from '../features/games/GameDetail';
 import GamesList from '../features/games/GamesList';
-import { selectRandomGame } from '../features/games/gamesSlice';
+import { selectGameById } from '../features/games/gamesSlice';
 
 const GamesDirectoryPage = () => {
-    let selectedGame = selectRandomGame();
-    
-    const toggleGame = () => {
-        selectedGame = selectRandomGame();
-        console.log(selectedGame);
-    };
+    const [gameId, setGameId] = useState(0);
+    const selectedGame = selectGameById(gameId);
     return (
         <Container>
-            <Button onClick={() => toggleGame()}>
-                Select Random Game
-            </Button>
             <Row>
                 <Col sm='5' md='7'>
-                    <GamesList />
+                    <GamesList setGameId={setGameId} />
                     </Col>
                 <Col sm='7' md='5'>
                     <GameDetail game={selectedGame} />
