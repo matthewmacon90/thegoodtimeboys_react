@@ -12,7 +12,7 @@ const SocialIcon = () => {
                 <FontAwesomeIcon icon={faFacebook} />
             </a>
             <a target="_blank" href="https://discord.gg/HRUccyU3Th"> 
-                <FontAwesomeIcon className="fa-inverse" icon={faDiscord} />
+                <FontAwesomeIcon icon={faDiscord} />
             </a>
             <a target="_blank" href="http://www.youtube.com/">
                 <FontAwesomeIcon icon={faYoutube} />
