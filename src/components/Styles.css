@@ -19,10 +19,17 @@
     min-height: 8rem;
   }
 
-.social-icons a{
+.social-icons-footer a{
   color: white;
   margin: 4px;
-  font-size: 28px;
+  font-size: 24px;
+}
+
+.social-icons-header a{
+  color: white;
+  margin: 6px;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .footer-links a{
@@ -32,3 +39,13 @@
 .links-hover a.hover{
   text-decoration: underline;
 }
+
+.title-header{
+  color: white;
+  text-decoration: none;
+}
+
+.title-hover:hover {
+  color: white;
+}
+

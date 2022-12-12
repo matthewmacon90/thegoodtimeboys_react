@@ -6,7 +6,7 @@ import { faFacebook, faDiscord, faYoutube  } from "@fortawesome/free-brands-svg-
 
 const SocialIcon = () => {
     return (
-        <Col className="social-icons">
+        <Col className="social-icons-footer">
             <h5 className="h5-footer">Social Media</h5>
             <a target="_blank" href="http://www.facebook.com/">
                 <FontAwesomeIcon icon={faFacebook} />

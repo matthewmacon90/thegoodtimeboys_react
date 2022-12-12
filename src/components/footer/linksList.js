@@ -1,4 +1,5 @@
 import { Col, Nav, NavItem} from "reactstrap";
+import { Link } from "react-router-dom";
 
 const LinksList = () => {
     return (
@@ -6,13 +7,16 @@ const LinksList = () => {
             <h5 className="h5-footer">Links</h5>
             <Nav vertical>
                 <NavItem>
-                    <a target='_blank' href="https://www.google.com">Google</a> 
+                    <Link to='/'>Home</Link>
                 </NavItem>
                 <NavItem>
-                    <a target='_blank' href="https://www.google.com">Test1</a> 
+                    <Link to='/directory'>News</Link>
                 </NavItem>
                 <NavItem>
-                    <a target='_blank' href="https://www.google.com">Test2</a>
+                    <Link to='/about'>About</Link>
+                </NavItem>
+                <NavItem>
+                    <Link to='/contact'>Contact</Link>
                 </NavItem>
             </Nav>
         </Col>
@@ -21,3 +25,4 @@ const LinksList = () => {
 
 export default LinksList;
 
+//Look into adding all the links as a NavLink and changing styling to fit as it is now.

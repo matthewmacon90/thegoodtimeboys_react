@@ -1,8 +1,9 @@
-import { Navbar } from "reactstrap";
+import HeaderLinks from "./HeaderLinks";
 
 const Header = () => {
     return (
-        <Navbar dark sticky='top' expand='md'></Navbar>
+            <HeaderLinks />
+
     );
 };
 
