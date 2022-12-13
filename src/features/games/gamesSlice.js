@@ -4,25 +4,13 @@ export const selectAllGames = () => {
     return GAMES;
 };
 
-
 export const selectGameById = (id) => {
     return GAMES.find((game) => game.id === id);
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export const selectFeaturedGames = () => {
+    return GAMES.filter((game) => game.featured);
+};
 
 
 //to select a random game from the GAMES Array Object.

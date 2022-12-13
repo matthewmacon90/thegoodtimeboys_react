@@ -36,16 +36,20 @@
   color: white;
   text-decoration: none;
 }
-.links-hover a.hover{
-  text-decoration: underline;
-}
 
 .title-header{
   color: white;
   text-decoration: none;
 }
 
+.title-header h1 {
+  font-family: inherit;
+}
+
 .title-hover:hover {
   color: white;
 }
 
+body a:hover {
+  color: #4B8FF7;
+}

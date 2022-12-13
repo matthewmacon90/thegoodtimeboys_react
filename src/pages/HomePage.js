@@ -1,5 +1,10 @@
+import DisplayCarousel from "../features/homeDisplay/DisplayCarousel";
+
+
 const HomePage = () => {
-    return <div>Home Page</div>
+    return (
+        <DisplayCarousel />
+    );
 };
 
 export default HomePage;

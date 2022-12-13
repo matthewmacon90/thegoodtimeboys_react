@@ -14,10 +14,10 @@ const HeaderLinks = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
         <Navbar dark sticky='top' expand='md'>
-            <Link className="title-header title-hover" to='/'><h1>The Sons of Thunder</h1></Link>
+            <Link className="title-header title-hover" to='/'><h1 className=''>The Sons of Thunder</h1></Link>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
             <Collapse isOpen={menuOpen} navbar>
-                <Nav className='nav-link social-icons-header' navbar>
+                <Nav className='ms-auto nav-link social-icons-header' navbar>
                     <NavItem>
                         <NavLink to='/'>
                             <FontAwesomeIcon icon={faHouse} /> Home

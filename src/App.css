@@ -44,3 +44,9 @@ h3,
   opacity: 0;
   transition: 300ms ease-in;
 }
+
+/* .App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+} */
