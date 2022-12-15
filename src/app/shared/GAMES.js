@@ -15,7 +15,7 @@ export const GAMES = [
         id: 1,
         name: "Atlas",
         image: atlasImg,
-        featured: false,
+        featured: true,
         description: 'Testing...'
     },
     {
