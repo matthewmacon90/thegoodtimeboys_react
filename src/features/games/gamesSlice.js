@@ -5,7 +5,7 @@ export const selectAllGames = () => {
 };
 
 export const selectGameById = (id) => {
-    return GAMES.find((game) => game.id === id);
+    return GAMES.find((game) => game.id === parseInt(id));
 };
 
 export const selectFeaturedGames = () => {

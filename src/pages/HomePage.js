@@ -1,9 +1,12 @@
+import { Container } from "reactstrap";
 import DisplayCarousel from "../features/homeDisplay/DisplayCarousel";
 
 
 const HomePage = () => {
     return (
-        <DisplayCarousel />
+        <Container>
+            <DisplayCarousel />
+        </Container>
     );
 };
 

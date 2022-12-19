@@ -14,16 +14,16 @@
     justify-content: center;
     text-align: center;
     /* For layout from Toni */
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
 }
 
 
-.carousel .carousel-control-prev-icon,
+/* .carousel .carousel-control-prev-icon,
 .carousel .carousel-control-next-icon {
   height: 50px;
   width: 50px;
-  /* border-radius: 50%;
-  border: 1px solid black; */
-}
+  border-radius: 50%;
+  border: 1px solid black;
+} */
 
 
