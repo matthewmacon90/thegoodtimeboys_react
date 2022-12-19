@@ -1,17 +1,29 @@
-@media only screen and (max-width: 2000px) {
-    .carousel-image {
-        border-radius: 15px;
-        width: 100%;
-    }
+.carousel-image {
+    border-radius: 15px;
+    max-height: 532px;
+    object-fit: cover;
+    width: 100%;
 }
 
-.carousel-size {
+.carousel {
     width: 65%;
-    border-radius: 15px;
 }
 
 .content-centered {
     display: flex;
     justify-content: center;
     text-align: center;
+    /* For layout from Toni */
+    margin-bottom: 3rem;
 }
+
+
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  /* border-radius: 50%;
+  border: 1px solid black; */
+}
+
+

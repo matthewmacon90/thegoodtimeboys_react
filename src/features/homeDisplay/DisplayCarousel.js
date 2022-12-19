@@ -16,18 +16,17 @@ import {
     const [animating, setAnimating] = useState(false);
 
     const featuredGames = selectFeaturedGames();
+    const lastIndex = featuredGames.length - 1;
 
     const previousButton = () => {
         if (animating) return;
-        const nextIdx = activeIdx === 0 ?
-        featuredGames.length - 1 : activeIdx - 1;
+        const nextIdx = activeIdx === 0 ? lastIndex : activeIdx - 1;
         setActiveIdx(nextIdx);
     };
 
     const nextButton = () => {
         if (animating) return;
-        const nextIdx = activeIdx === featuredGames.length - 1 ?
-        0 : activeIdx + 1;
+        const nextIdx = activeIdx === lastIndex ? 0 : activeIdx + 1;
         setActiveIdx(nextIdx);
     };
 
@@ -52,7 +51,6 @@ import {
             <h3>Join Us in these Games!</h3>
             <Col className='content-centered'>
                 <Carousel
-                    className='carousel-size'
                     previous={previousButton}
                     next={nextButton}
                     activeIndex={activeIdx}

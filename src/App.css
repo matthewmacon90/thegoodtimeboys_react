@@ -45,8 +45,9 @@ h3,
   transition: 300ms ease-in;
 }
 
-/* .App {
+/* For layout from Toni */
+.App {
   display: flex;
   flex-direction: column;
   height: 100vh;
-} */
+}
